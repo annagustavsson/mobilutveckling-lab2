@@ -27,7 +27,7 @@ document.addEventListener("init", function (event) {
     page.querySelector("#push-about").onclick = function () {
       document
         .querySelector("#myNavigator")
-        .pushPage("relaxation.html", { data: { title: "Page 2" } });
+        .pushPage("about.html", { data: { title: "Page 2" } });
     };
   }
 
