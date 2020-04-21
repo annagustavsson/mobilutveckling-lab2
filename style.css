@@ -1,0 +1,24 @@
+.page,
+.page__content,
+.page--material,
+.page--material__content {
+	background-color: #f2f1f1 !important;
+	background: #f2f1f1 !important;
+}
+.toolbar {
+	background: bottom no-repeat #52626c;
+}
+
+.toolbar-button {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.list-item {
+	background-color: #d5ccc8;
+	font-size: 1.5rem;
+}
+
+img {
+	max-width: 100%;
+}
