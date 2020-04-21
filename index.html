@@ -29,8 +29,11 @@
           >
           <ons-list-item tappable id="push-breathing">Breathing</ons-list-item>
           <ons-list-item tappable id="push-yoga">Yoga</ons-list-item>
-        </ons-list>
-      </ons-page>
+		</ons-list>
+		<section style="padding: 8px">
+		<ons-button modifier="outline" onclick="showTemplateDialog()">Click here hehe</ons-button>
+	 </section>
+	</ons-page>
     </template>
 
     <template id="breathing.html">
@@ -155,7 +158,22 @@
             </ul>
           </div>
       </ons-page>
-    </template>
+	</template>
+	
+	<template id="dialog.html">
+		<ons-dialog id="my-dialog" cancelable>
+		  <div style="text-align: center; padding: 10px;">
+			<p>
+			  Namaste home with my cats
+			</p>
+	  
+			<p>
+			  <ons-button onclick="hideDialog('my-dialog')">mkay</ons-button>
+			</p>
+		  </div>
+		</ons-dialog>
+	  </template>
+
   </body>
   <script src="app.js"></script>
 </html>

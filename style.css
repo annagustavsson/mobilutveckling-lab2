@@ -9,14 +9,20 @@
 	background: bottom no-repeat #52626c;
 }
 
-.toolbar-button {
+.toolbar-button,
+.back-button,
+.back-button__label {
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
+}
+
+.back-button__icon {
+	fill: #fff;
 }
 
 .list-item {
-	background-color: #d5ccc8;
-	font-size: 1.5rem;
+	background-color: #e7e4e4;
+	font-size: 1.3rem;
 }
 
 img {
